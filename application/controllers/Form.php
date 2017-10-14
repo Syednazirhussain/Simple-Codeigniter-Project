@@ -74,7 +74,7 @@ class Form extends CI_Controller {
         }
         else
         {
-            echo $username." ".$email." ".$password;die();
+            //echo $username." ".$email." ".$password;die();
             $this->load->view('formsuccess');
         }
     }
